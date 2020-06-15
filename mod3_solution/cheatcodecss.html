@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+/*Header Section */
+.navbar{
+    background-color: #999;
+    border: 0;
+    border-top: 2px solid #000;    
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+}
+.navbar-header>#brand-name {
+    font-size: 2.5em;
+    color: #000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+}
+.container .navbar-collapse ul {
+    background-color: #fff;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    border-top: 10px solid #000;
+}
+.container .navbar-collapse li{  
+    border-top: 1px solid #000;
+}
+.container .navbar-collapse li a {
+    color: #000;
+    font-size: 1.2em;
+}
+
+/*main content section */
+#sub-heading {
+    font-size: 2em;
+    color: #000;
+}
+#content-box {
+    background-color: #999;
+    color: #000;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* Media queries */ 
+
+@media (max-width: 767px) {
+    .navbar-header>#brand-name {
+        margin-left: 50px;
+    }
+
+    #content-box {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
